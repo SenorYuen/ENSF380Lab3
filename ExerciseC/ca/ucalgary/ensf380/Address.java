@@ -66,6 +66,6 @@ public class Address {
     }
 
     public String outputAsLabel() {
-        return street + "\n" + city + ", " + state + " " + postalCode + "\n" + country;
+        return street + "\n" + city + ", " + state + " " + postalCode  + country + "\n";
     }
 }

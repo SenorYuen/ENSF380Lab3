@@ -32,7 +32,7 @@ public class University {
         // Print recruitment process details
         System.out.println("\nRecruitment Process:");
         System.out.println("Professor " + professor.getName() + " at University X is recruiting students for a research project.");
-        System.out.println("Student 1: " + student1.name + " - " + (addressValid1 ? "Valid Address: " + student1PrintedAddress + "," : "Invalid Address, ") + (eligible1 ? "Eligible for Enrollment" : "Not Eligible for Enrollment"));
-        System.out.println("Student 2: " + student2.name + " - " + (addressValid2 ? "Valid Address: " + student2PrintedAddress + "," : "Invalid Address, ") + (eligible2 ? "Eligible for Enrollment" : "Not Eligible for Enrollment"));
+        System.out.println("\nStudent 1: " + student1.name + " - " + (addressValid1 ? "Valid Address: " + student1PrintedAddress + "," : "Invalid Address, ") + (eligible1 ? "Eligible for Enrollment - This student is hired!" : "Not Eligible for Enrollment"));
+        System.out.println("\nStudent 2: " + student2.name + " - " + (addressValid2 ? "Valid Address: " + student2PrintedAddress + "," : "Invalid Address, ") + (eligible2 ? "Eligible for Enrollment - This student is hired!" : "Not Eligible for Enrollment"));
     }
 }
