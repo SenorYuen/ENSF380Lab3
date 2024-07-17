@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-07-17T04:00:59.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tnwID-drUJSnMupYmlbw" version="24.7.0" type="google">
+  <diagram name="Page-1" id="_K_R5-aOZgiN5gNrug0r">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-9" value="Plant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-10" target="v0CNIlIR6wWMXzj_WWM_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-10" value="Crops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-13" target="v0CNIlIR6wWMXzj_WWM_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-13" value="Trees" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-14" target="v0CNIlIR6wWMXzj_WWM_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-14" value="Wheat" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-15" target="v0CNIlIR6wWMXzj_WWM_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-15" value="Corn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-16" target="v0CNIlIR6wWMXzj_WWM_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-16" value="Spruce Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-17" target="v0CNIlIR6wWMXzj_WWM_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-17" value="Deciduous Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-18" target="v0CNIlIR6wWMXzj_WWM_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-18" value="Pine Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-19" target="v0CNIlIR6wWMXzj_WWM_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-19" value="Coniferous Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="v0CNIlIR6wWMXzj_WWM_-20" target="v0CNIlIR6wWMXzj_WWM_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-20" value="Oak Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v0CNIlIR6wWMXzj_WWM_-30" value="&quot;Is a&quot; Hierarchy&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

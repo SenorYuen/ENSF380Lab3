@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-07-17T02:34:20.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SyOlJmVJlNmnEBdNAikr" version="24.6.5" type="google">
+  <diagram name="Page-1" id="ZVVMS4vXMJ_gvNRHPp_H">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-34" target="BqmDUFY_o_EuVMiYffIQ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-34" value="Leaves" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-35" target="BqmDUFY_o_EuVMiYffIQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-35" target="BqmDUFY_o_EuVMiYffIQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-35" target="BqmDUFY_o_EuVMiYffIQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-35" value="Plant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-36" value="Roots" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-37" value="Stem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-39" target="BqmDUFY_o_EuVMiYffIQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="BqmDUFY_o_EuVMiYffIQ-39" target="BqmDUFY_o_EuVMiYffIQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-39" value="Plant Cells" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-40" value="Chloroplasts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-41" value="Other Organelles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqmDUFY_o_EuVMiYffIQ-52" value="&quot;Has a&quot; hierarchy Example" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
