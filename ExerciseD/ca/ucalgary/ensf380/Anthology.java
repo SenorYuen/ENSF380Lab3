@@ -1,5 +1,5 @@
 package ExerciseD.ca.ucalgary.ensf380;
-public class Anthology {
+public class Anthology extends Fiction {
     private Story[] stories;
 
     public String storyOrder() {

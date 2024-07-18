@@ -1,7 +1,7 @@
 package ExerciseD.ca.ucalgary.ensf380;
 public class Story {
-    private Author[] theAuthors; 
-
+    private Author[] theAuthors;    
+    
     public String plot() {
         return "Method Plot called from Story";
     }

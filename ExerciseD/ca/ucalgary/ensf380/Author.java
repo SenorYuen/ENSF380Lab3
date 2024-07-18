@@ -4,6 +4,12 @@ public class Author {
     private String address;
     private int age;
 
+    public Author() {
+        this.name = null;
+        this.address = null;
+        this.age = '0';
+    }
+    
     public Author(String name, String address, int age) {
         this.name = name;
         this.address = address;
@@ -21,9 +27,11 @@ public class Author {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getAddress() {
         return this.address;
     }
+
     public void setAddress(String address) {
         this.address = address;
     }
@@ -31,6 +39,7 @@ public class Author {
     public int getAge() {
         return this.age;
     }
+    
     public void setAge(int age) {
         this.age = age; 
     }

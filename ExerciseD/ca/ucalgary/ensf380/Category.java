@@ -5,8 +5,8 @@ public class Category {
     private String category;
 
     public String sort() {
-        String returnString = "Method sort called from Category";
-        return returnString;
+        return "Method sort called from Category";
+
     }
     public Category getSubCategory() {
         return this.subCategory;
@@ -14,9 +14,11 @@ public class Category {
     public void setSubCategory(Category sub) {
         this.subCategory = sub;
     }
+    
     public Category getSuperCategory() {
-        return this.subCategory;
+        return this.superCategory;
     }
+    
     public void setSuperCategory(Category superCategory) {
         this.superCategory = superCategory;
     }
