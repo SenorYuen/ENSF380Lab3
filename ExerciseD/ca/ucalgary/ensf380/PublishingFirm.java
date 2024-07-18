@@ -4,61 +4,77 @@ public class PublishingFirm {
 
     public static void main(String[] args) {
         // Create authors
-        Author author1 = new Author("Cherles Dickens", "344 First Street ", 55);
-        Author author2 = new Author("J.K. Rowling", "323 Second Street ", 43);
-        Author author3 = new Author("Marie Lu", "213 Third Street", 19);
+        Author author1 = new Author("Author1", "344 First Street ", 55);
+        Author author2 = new Author("Author2", "323 Second Street ", 43);
+        Author author3 = new Author("Author3", "213 Third Street", 19);
 
         // Create publishers
-        Publisher publisher1 = new Publisher("PickWick Papers", "56 Fourth Street");
-        Publisher publisher2 = new Publisher("Bloomsbury", "878 Fifth Street");
-        Publisher publisher3 = new Publisher("Penguin Random House", "123 Sixth Street");
+        Publisher publisher1 = new Publisher("Publisher1", "56 Fourth Street");
+        Publisher publisher2 = new Publisher("Publisher2", "878 Fifth Street");
 
         // Create books
-        Book book1 = new Classic("Great Expectations", author1, publisher1, new Hardcover());
-        Book book2 = new Novel("Harry Potter and the Philosopher's Stone", author2, publisher2, new Paperback());
-        Book book3 = new Fiction("The Legend", author3, publisher3, new Hardcover());
-        Book book4 = new Nonfiction("Oliver Twist", author1, publisher3, new Paperback());
+        Classic book1 = new Classic();
+        book1.setIsbn("12345");
+        book1.setPublicationYear(1997);
+        book1.setPages(200);
+        book1.setOrigPubYear(1997);
+        book1.setTheAuthor(author1);
+        book1.setBookPublisher(new Publisher[] { publisher1, publisher2 });
+
+        Novel book2 = new Novel();
+        book2.setIsbn("23456");
+        book2.setPublicationYear(1998);
+        book2.setPages(201);
+        book2.setTheAuthors(new Author[] { author2, author3 });
+        
+        Fiction book3 = new Fiction();
+        book3.setIsbn("34567");
+        book3.setPublicationYear(1999);
+        book3.setPages(202);
+
+        Nonfiction book4 = new Nonfiction();
+        book4.setIsbn("45678");
+        book4.setPublicationYear(2000);
+        book4.setPages(203);
+        book4.setDeweyClassification(new Category());
 
         // Create series
-        Series harryPotterSeries = new Series("Harry Potter");
-        harryPotterSeries.addBook(book2);
+        Series series1 = new Series();
+        series1.setSeriesName("Series1");
+
+
+        //Create stories
+        Story story1 = new Story();
+        story1.setTheAuthor(new Author[] {author1});
+
+        Story story2 = new Story();
+        story2.setTheAuthor(new Author[] {author2});
 
         // Create anthologies
-        Anthology detectiveStories = new Anthology("Detective Stories");
-        detectiveStories.addStory(new Story("The Adventure of the Speckled Band", author3));
-        detectiveStories.addStory(new Story("The Murders in the Rue Morgue", new Author("Edgar Allan Poe")));
+        Anthology anthology = new Anthology();
+        anthology.setStory(new Story[] {story1, story2});
 
-        // Create categories
-        Category fictionCategory = new Category("Fiction");
-        Category classicCategory = new Category("Classic");
-        Category nonfictionCategory = new Category("Nonfiction");
-
-        // Assign books to categories
-        fictionCategory.addBook(book2);
-        fictionCategory.addBook(book3);
-        classicCategory.addBook(book1);
-        nonfictionCategory.addBook(book4);
 
         // Print book details
-        System.out.println("Book Details:");
-        System.out.println(book1);
-        System.out.println(book2);
-        System.out.println(book3);
-        System.out.println(book4);
+        System.out.println("Classic Book Details:");
+        System.out.println("Book 1 - " + "ISBN:" + book1.getIsbn() + " Publication Year:" + book1.getPublicationYear() + " Pages:" + book1.getPages() + " Original Publication Year:" + book1.getOrigPubYear() + " Author:" + book1.getTheAuthor() + " Publisher:" + book1.getBookPublisher());
+
+        System.out.println("\nNovel Book Details:");
+        System.out.println("Book 2 - " + "ISBN:" + book2.getIsbn() + " Publication Year:" + book2.getPublicationYear() + " Pages:" + book2.getPages() + " Authors:" + book2.getTheAuthors());
+
+        System.out.println("\nFiction Book Details:");
+        System.out.println("B0ok 3 - " + "ISBN:" + book3.getIsbn() + " Publication Year:" + book3.getPublicationYear() + " Pages:" + book3.getPages());
+
+        System.out.println("\nNonfiction Book Details:");
+        System.out.println("book4 - " + "ISBN:" + book4.getIsbn() + " Publication Year:" + book4.getPublicationYear() + " Pages:" + book4.getPages() + " Dewey Classification:" + book4.getDeweyClassification());
 
         // Print series details
         System.out.println("\nSeries Details:");
-        System.out.println(harryPotterSeries);
+        System.out.println("series1 - " + "Series Name:" + series1.getSeriesName());
 
         // Print anthology details
         System.out.println("\nAnthology Details:");
-        System.out.println(detectiveStories);
-
-        // Print category details
-        System.out.println("\nCategory Details:");
-        System.out.println(fictionCategory);
-        System.out.println(classicCategory);
-        System.out.println(nonfictionCategory);
+        System.out.println("anthology - " + "Stories:" + anthology.getStory());
     }
 }
 

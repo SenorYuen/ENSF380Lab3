@@ -1,5 +1,5 @@
 package ExerciseD.ca.ucalgary.ensf380;
-public class Nonfiction {
+public class Nonfiction extends Paperback {
     private Category deweyClassification;
 
     public String topic() {
